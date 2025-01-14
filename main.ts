@@ -9,7 +9,7 @@ app.get('/', (_req: Request, res: Response) => {
   res.send("i love ayaka >///<")
 })
 
-app.get('/image', (_req: Request, res: Response) => {
+app.get('/image/:anything', (_req: Request, res: Response) => {
   res.redirect(`https://ucarecdn.com/${imageIDs[Math.floor(Math.random() * imageIDs.length)]}/-/format/auto/-/quality/smart/`);
 })
 
