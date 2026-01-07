@@ -13,5 +13,8 @@
   },
   "imports": {
     "@uploadcare/rest-client": "npm:@uploadcare/rest-client@^6.18.2"
-  }
+  },
+  "unstable": [
+    "cron"
+  ]
 }
