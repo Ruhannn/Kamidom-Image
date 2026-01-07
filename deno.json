@@ -4,7 +4,6 @@
     "deploy": "deployctl deploy --pord"
   },
   "deploy": {
-    "project": "86febea9-91ba-4bc5-9081-87be5f46917f",
     "exclude": [
       "**/node_modules"
     ],
